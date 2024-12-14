@@ -1,0 +1,20 @@
+{
+  "name": "QianT",
+  "min": 90,
+  "max": 210,
+  "maxStepSize": 2,
+  "smoothOff": 5,
+  "sharesAmount": 10000,
+  "atlasPath": "base\\icon\\stocks\\qiant.inkatlas",
+  "atlasPart": "stock",
+  "iconX": 354,
+  "iconY": 126,
+  "stockInfluence": [
+    { "name": "Raven", "amount": -0.20000000298023 }
+  ],
+  "triggers": [
+    { "name": "cwKills", "amount": 1 },
+    { "name": "qhUsage", "amount": 1 },
+    { "name": "quest_LocKey#8625", "amount": -0.125 }
+  ]
+}

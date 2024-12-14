@@ -1,0 +1,20 @@
+{
+  "name": "Tsunami",
+  "min": 240,
+  "max": 500,
+  "maxStepSize": 3,
+  "smoothOff": 5,
+  "sharesAmount": 60000,
+  "atlasPath": "base\\gameplay\\gui\\common\\icons\\weapon_manufacturers.inkatlas",
+  "atlasPart": "tsunami",
+  "iconX": 415,
+  "iconY": 60,
+  "stockInfluence": [
+    { "name": "Raven", "amount": 0.27500000596046 }
+  ],
+  "triggers": [
+    { "name": "tsunamiAction", "amount": 1 },
+    { "name": "quest_LocKey#12752", "amount": 0.25 },
+    { "name": "quest_LocKey#8625", "amount": 0.20000000298023 }
+  ]
+ }
